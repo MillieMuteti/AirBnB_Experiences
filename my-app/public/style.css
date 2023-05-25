@@ -17,3 +17,24 @@ nav {
 .nav--logo {
     max-width: 100px;
 }
+
+.hero__section{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__grid {
+    max-width: 400px;
+    /* margin: auto; */
+    align-self: center;
+   
+}
+
+.hero__header {
+    margin-bottom: 16px;
+}
+
+.hero__text {
+    margin-top: 0;
+}
+
