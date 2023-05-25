@@ -10,5 +10,10 @@ nav {
     height: 70px;
     display: flex;
     padding: 20px 36px;
-    background-color: blue;
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+    /* background-color: blue; */
+}
+
+.nav--logo {
+    max-width: 100px;
 }
