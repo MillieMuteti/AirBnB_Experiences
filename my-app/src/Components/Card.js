@@ -1,11 +1,13 @@
 import React from "react"
 
 
-
 export default function Card(props) {
-    return (
+         return (
+        
+      
         <div className="card">
-            <img src={ require(`../images/${props.img}`) }  alt="fgvbh" className="card__image"/>
+            
+            <img src={ require(`../images/${props.img}`) }  alt="" className="card__image"/>
             {/* <img src={props.img }  alt="" className="card__image"/> */}
 
                 <div className="card__body">
@@ -13,7 +15,7 @@ export default function Card(props) {
                 <img src={require("../images/star.png")} alt="" className="card__star"  />
                 <span>{props.rating}</span>
                 <span className="gray">{props.reviewCount} .</span>
-                <span className="gray">{props.country}</span>
+                <span className="gray">{props.location}</span>
                  
                
                 </div> 
