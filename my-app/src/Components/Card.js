@@ -6,6 +6,7 @@ export default function Card(props) {
         
       
         <div className="card">
+            <div>Sold Out</div>
             
             <img src={ require(`../images/${props.img}`) }  alt="" className="card__image"/>
             {/* <img src={props.img }  alt="" className="card__image"/> */}
@@ -19,8 +20,8 @@ export default function Card(props) {
                  
                
                 </div> 
-                <p>{props.title}</p>
-                <p><span className="bold">From ${props.price}</span> / person</p>
+                <p className="card--title">{props.title}</p>
+                <p className="card--price"><span className="bold">From ${props.price}</span> / person</p>
             </div>
         </div>
     )
