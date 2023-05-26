@@ -9,7 +9,8 @@ export default function App() {
            <Navbar />
             {/* <Hero /> */}
             <Card 
-            img="(../images/katie-zaferes.png)"
+            img={"katie-zaferes.png"}
+            // img={require("./images/katie-zaferes.png")}
             rating={5.0}
             reviewCount="(6)"
             country="USA"
